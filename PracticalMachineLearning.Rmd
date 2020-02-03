@@ -162,7 +162,7 @@ The accuracy of the 3 regression modeling methods used above and accuracies are:
 Random Forest : 0.9927
 Decision Tree : 0.7315
 GBM : 0.959
-Based on the results obtained, Random Forest model will be applied to predict the 20 quiz results on testing dataset as shown below.
+Based on the results obtained, Random Forest model will be applied to predict the 20 quiz results on testing dataset as shown below. 
 
 ```{r }
 predictTEST <- predict(modFitRandForest, newdata=testing)
